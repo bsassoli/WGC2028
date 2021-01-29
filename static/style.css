@@ -6,8 +6,11 @@ body {
     background: white;
     background: linear-gradient(to left, #b4ccda, #809ebd);
     height: 100vh;
+    
+    font-family: "Noto Sans JP",
+    sans-serif;
     */
-    font-family: "Noto Sans JP", sans-serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
     color: rgb(255, 255, 255);
     opacity: 1;
 }
@@ -33,18 +36,20 @@ h1 {
 }
 
 #main-title {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
     margin-top: 2em;
     text-transform: uppercase;
+    font-family: "Saira Semi Condensed", sans-serif;
 }
 
 .main-text {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 2em;
     margin-left: 5em;
     margin-right: 5em;
-    text-transform: uppercase;
-    color:black
+
+    color:rgb(24, 24, 24);
+    
 }
 #tagline {
     text-align: center;
