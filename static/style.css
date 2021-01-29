@@ -1,0 +1,87 @@
+body {
+    background-image: url("../static/img/benjamin-voros-JhjDL3TZKJk-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*
+    background: white;
+    background: linear-gradient(to left, #b4ccda, #809ebd);
+    height: 100vh;
+    */
+    font-family: "Noto Sans JP", sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.glass_main {
+    justify-content: center;
+    text-align: center;
+    width: 85%;
+    margin: 5% auto;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(191, 192, 205, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 0.2px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+    font-size: 3.2em;
+    font-style: bold;
+    text-transform: uppercase;
+    
+}
+
+#main-title {
+    margin-bottom: 1.5em;
+    margin-top: 2em;
+    text-transform: uppercase;
+}
+
+.main-text {
+    text-align: center;
+    font-size: 1.8em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-transform: uppercase;
+    color:black
+}
+#tagline {
+    text-align: center;
+    font-size: 1.8em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 4em;
+    text-transform: uppercase;
+    color: white;
+}
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(#b8dcee, #71777b);
+}
+.circles {
+    position: absolute;
+    height: 270px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-1 {
+    height: 160px;
+    width: 160px;
+    top: -200px;
+    left: -330px;
+}
+
+.circle-2 {
+    height: 150px;
+    width: 150px;
+    bottom: -120px;
+    right: -220px;
+    opacity: 0.8;
+}
+
+/* Background circles end */
